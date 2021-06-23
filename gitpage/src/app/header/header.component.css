@@ -1,0 +1,12 @@
+#container {
+    background-color: #2b2b2b;
+    padding: 0px 32px;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    padding: 15px 32px;
+}
