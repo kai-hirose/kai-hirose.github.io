@@ -1,8 +1,11 @@
+//import '../index.css'
+import {BsFillMoonStarsFill} from 'react-icons/bs'
+
 export default function TopHeader() {
     return (
-        <header className="lg:sticky flex flex-col lg:flex-row ">
+        <header className="flex flex-col lg:flex-row ">
             <div className="lg:w-1/2">
-                <h1 className="text-white text-4xl font-medium">Kai Hirose</h1>
+                <h1 className="text-4xl font-roboto">Kai Hirose</h1>
                 <h2 className="text-xl font-medium text-slate-400">Full-Stack Engineer</h2>
             </div>
 
@@ -33,6 +36,10 @@ export default function TopHeader() {
                         </svg>
                     </a>
                 </li>
+            
+                <div className='right-0'>
+                    <BsFillMoonStarsFill/>
+                </div>      
             </ul>
         </header>
     )

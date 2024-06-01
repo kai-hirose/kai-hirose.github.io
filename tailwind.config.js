@@ -9,9 +9,9 @@ export default {
       colors:{
         favorite:'#030d33',
       },
-      backgroundImage: {
-        poles: "url('/src/assets/poles.png')",
-      },
+      fontFamily:{
+        Roboto: ["roboto"]
+      }
     },
   },
   plugins: [],
