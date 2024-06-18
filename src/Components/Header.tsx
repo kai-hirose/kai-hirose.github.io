@@ -25,7 +25,7 @@ function Header() {
                 <img src='/logo.svg' className='p-7'></img>
             </div>
 
-            <div className='flex gap-14'>
+            <div className='hidden md:flex gap-14'>
                 {menu.map((item) => (
                     <div className='cursor-pointer hover:underline font-medium'>
                         <h2>{item.name}</h2>
