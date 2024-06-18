@@ -3,7 +3,7 @@ import { IoLogoLinkedin  } from "react-icons/io5";
 
 function SideBar() {
   return (
-    <div className='w-[90px] h-screen border-r-[1px] fix flex flex-col justify-around items-center'>
+    <div className='w-[90px] h-screen border-r-[1px] fixed flex flex-col justify-around items-center'>
       <h2 className='-rotate-90 tracking-widest'>
         Home
       </h2>
