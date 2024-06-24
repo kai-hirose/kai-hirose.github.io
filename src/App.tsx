@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Components/Header'
 import SideBar from './Components/SideBar'
 import ProfilePic from './Components/ProfilePic'
+import Introduction from './Components/Introduction'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
       <SideBar/>
       <div className='ml-[90px] grid grid-cols-1 md:grid-cols-3'>
         <div className='col-span-2'>
-          User Data
+          <Introduction/>
         </div>
         <div>
         <ProfilePic/>
