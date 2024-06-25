@@ -5,6 +5,8 @@ import SideBar from './Components/SideBar'
 import ProfilePic from './Components/ProfilePic'
 import Introduction from './Components/Introduction'
 import About from './Components/About'
+import Skills from './Components/Skills'
+import ProgressBar from './Components/ProgressBar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,8 +19,10 @@ function App() {
         <div className='col-span-2 p-5 mt-90[px]'>
           <Introduction/>
           <About/>
+          <Skills/>
         </div>
-        <div>
+        <div className='hidden md:block'>
+        <ProgressBar/>
         <ProfilePic/>
         </div>
       </div>
