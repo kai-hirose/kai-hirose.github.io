@@ -12,8 +12,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write      # for pushing pages
-  id-token: write      # needed for deploy-pages v4
+  contents: read
+  pages: write
+  id-token: write
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
